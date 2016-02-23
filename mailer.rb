@@ -37,8 +37,8 @@ post '/' do
   puts email
   Pony.mail(
     :to => ENV['email_recipients'],
-    :from => 'noreply@example.com',
-    :subject => 'New Contact Form',
+    :from => 'support@plexservercontact.com',
+    :subject => 'Plex Server Contact',
     :body => email
   )
 end
